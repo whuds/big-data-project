@@ -120,6 +120,7 @@ def build_dataset():
 
 	data = []
 	for file in fileNames:
+		print(file)
 		f = open(file,'r')
 		label = file.split('.')
 		label = label[0][8:]
